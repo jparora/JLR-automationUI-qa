@@ -15,7 +15,7 @@ C:\Users\USER\Documents\JLR\JLR-automationUI-qa\support
 C:\Users\USER\Documents\JLR\JLR-automationUI-qa\wdio.conf.js
 
 ### For Execution:
-command: npm run testBDD
+command: npm run testbdd
 
 ### Reporting:
 Allure Report
