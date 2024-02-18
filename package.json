@@ -1,0 +1,27 @@
+{
+  "name": "jlr-automationui-qa",
+  "version": "1.0.0",
+  "description": "JLR automation UI",
+  "main": "index.js",
+  "scripts": {
+    "testbdd": "npx wdio run ./wdio.conf.js"
+  },
+  "author": "Jai Arora",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.23.9",
+    "@babel/register": "^7.23.7",
+    "@wdio/allure-reporter": "^8.31.1",
+    "@wdio/cucumber-framework": "^8.32.1",
+    "@wdio/local-runner": "^8.32.1",
+    "chromedriver": "^109.0.0",
+    "wdio-chromedriver-service": "^8.1.1",
+    "webdriverio": "^8.32.1"
+  },
+  "dependencies": {
+    "@wdio/cli": "^8.32.1",
+    "chai": "^5.1.0",
+    "chai-webdriverio": "^1.0.0"
+  }
+}
